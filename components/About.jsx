@@ -5,7 +5,7 @@ const About = () => {
       <div className="md:hidden block">
         <div className="w-full bg-white flex h-14 rounded-b-xl justify-between px-6 items-center fixed z-50 top-0">
           <h1 className="text-xl">About Us</h1>
-          <span className="w-10 h-10">
+          <span className="w-10 h-10 ">
             <Image width="100" height="100" src="/icons/contact.png" alt="abouticon" />
           </span>
         </div>
@@ -13,8 +13,8 @@ const About = () => {
 
       <div className="w-screen  mt-24 mx-auto   overflow-hidden flex justify-center items-center ">
         <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 bg-white rounded-xl shadow-md">
-          <div className=" mt-10 md:w-1/3 w-full">
-            <Image width="100" height="100" className="h-full w-full object-cover " src="/img/about.svg" alt="About" />
+          <div className=" mt-10 md:w-1/3 rounded-2xl p-6 flex justify-center items-center">
+            <Image width="500" height="700" className="h-full w-full object-cover " src="/img/about.svg" alt="About" />
           </div>
           <div className="p-8  md:w-2/3 w-full">
             <h1 className="text-4xl font-bold">About Us</h1>
@@ -34,11 +34,11 @@ const About = () => {
         </div>
       </div>
       <div className="w-screen  mt-10 mb-44  mx-auto   overflow-hidden flex justify-center items-center ">
-        <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 bg-white rounded-xl shadow-md">
-          <div className=" mt-10 md:w-1/3 w-full">
+        <div className=" w-full  md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 bg-white rounded-xl shadow-md">
+          <div className=" mt-10 md:w-1/3 rounded-2xl p-6 flex justify-center items-center">
             <Image
-              width="100"
-              height="100"
+              width="500"
+              height="700"
               className="h-full w-full object-cover "
               src="/img/Contact.png"
               alt="Contact"

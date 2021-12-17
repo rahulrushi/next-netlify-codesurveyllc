@@ -166,14 +166,13 @@ const Gis = () => {
         </Media>
 
         <Media greaterThan="sm">
-          {' '}
           <div className="my-24 w-screen  grid  ">
             <div className="w-screen   h-full  mx-auto   overflow-hidden flex justify-center items-center ">
               <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
-                <div className="  md:w-2/5 w-full">
+                <div className="  md:w-2/5 rounded-2xl p-6 flex justify-center items-center">
                   <Image
-                    width="100"
-                    height="100"
+                    width="500"
+                    height="700"
                     className="h-full w-full object-cover rounded-2xl "
                     src="/img/img3.jpg"
                     alt="Contact"
@@ -197,10 +196,10 @@ const Gis = () => {
             </div>
             <div className="w-screen  mt-10  h-full  mx-auto   overflow-hidden flex justify-center items-center ">
               <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
-                <div className="  md:w-2/5 w-full">
+                <div className="  md:w-2/5 rounded-2xl p-6 flex justify-center items-center">
                   <Image
-                    width="100"
-                    height="100"
+                    width="500"
+                    height="700"
                     className="h-full w-full object-cover rounded-2xl "
                     src="/img/img2.jpg"
                     alt="Contact"
@@ -231,10 +230,10 @@ const Gis = () => {
             </div>
             <div className="w-screen  mt-10  h-full  mx-auto   overflow-hidden flex justify-center items-center ">
               <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
-                <div className="  md:w-2/5 w-full">
+                <div className="  md:w-2/5 rounded-2xl p-6 flex justify-center items-center">
                   <Image
-                    width="100"
-                    height="100"
+                    width="500"
+                    height="700"
                     className="h-full w-full object-cover rounded-2xl "
                     src="/img/img1.jpg"
                     alt="Contact"
@@ -253,10 +252,10 @@ const Gis = () => {
             </div>
             <div className="w-screen  mt-10  h-full  mx-auto   overflow-hidden flex justify-center items-center ">
               <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
-                <div className="  md:w-2/5 w-full">
+                <div className="  md:w-2/5 rounded-2xl p-6 flex justify-center items-center">
                   <Image
-                    width="100"
-                    height="100"
+                    width="500"
+                    height="700"
                     className="h-full w-full object-cover rounded-2xl "
                     src="/img/land2.jfif"
                     alt="Contact"
