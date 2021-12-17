@@ -1,4 +1,4 @@
-import { useWidth } from '../hooks/width';
+import { useWidth } from '../hooks/useWidth';
 
 const Cad = () => {
   const { height, width } = useWidth();

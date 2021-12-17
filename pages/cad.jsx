@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import Cad from '../components/Cad';
 import Head from 'next/head';
-import { useWidth } from '../hooks/width';
+import { useWidth } from '../hooks/useWidth';
 const cad = () => {
   const { height, width } = useWidth();
 

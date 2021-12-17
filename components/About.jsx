@@ -10,12 +10,12 @@ const About = () => {
         </div>
       </div>
 
-      <div class="w-screen  mt-24 mx-auto   overflow-hidden flex justify-center items-center ">
-        <div class="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 bg-white rounded-xl shadow-md">
-          <div class=" mt-10 md:w-1/3 w-full">
-            <img class="h-full w-full object-cover " src="/img/about.svg" alt="About" />
+      <div className="w-screen  mt-24 mx-auto   overflow-hidden flex justify-center items-center ">
+        <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 bg-white rounded-xl shadow-md">
+          <div className=" mt-10 md:w-1/3 w-full">
+            <img className="h-full w-full object-cover " src="/img/about.svg" alt="About" />
           </div>
-          <div class="p-8  md:w-2/3 w-full">
+          <div className="p-8  md:w-2/3 w-full">
             <h1 className="text-4xl font-bold">About Us</h1>
             <br />
             <p className="text-xl font-semibold">
@@ -32,12 +32,12 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div class="w-screen  mt-10 mb-44  mx-auto   overflow-hidden flex justify-center items-center ">
-        <div class="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 bg-white rounded-xl shadow-md">
-          <div class=" mt-10 md:w-1/3 w-full">
-            <img class="h-full w-full object-cover " src="/img/Contact.png" alt="Contact" />
+      <div className="w-screen  mt-10 mb-44  mx-auto   overflow-hidden flex justify-center items-center ">
+        <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 bg-white rounded-xl shadow-md">
+          <div className=" mt-10 md:w-1/3 w-full">
+            <img className="h-full w-full object-cover " src="/img/Contact.png" alt="Contact" />
           </div>
-          <div class="p-8  md:w-2/3 w-full h-96 mt-10 flex flex-col justify-center">
+          <div className="p-8  md:w-2/3 w-full h-96 mt-10 flex flex-col justify-center">
             <h1 className="text-4xl font-bold">Contact Us</h1>
             <br />
             <p className="text-xl font-semibold">

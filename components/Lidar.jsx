@@ -1,4 +1,4 @@
-import { useWidth } from '../hooks/width';
+import { useWidth } from '../hooks/useWidth';
 
 const Lidar = () => {
   const { height, width } = useWidth();
@@ -62,12 +62,12 @@ const Lidar = () => {
           </div>
         </div>
       ) : (
-        <div class="w-screen  mt-40 mb-44 h-full  mx-auto   overflow-hidden flex justify-center items-center ">
-          <div class="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
-            <div class="  md:w-2/5 w-full rounded-2xl ">
-              <img class="h-full w-full object-cover rounded-2xl " src="/img/lidar.png" alt="Contact" />
+        <div className="w-screen  mt-40 mb-44 h-full  mx-auto   overflow-hidden flex justify-center items-center ">
+          <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
+            <div className="  md:w-2/5 w-full rounded-2xl ">
+              <img className="h-full w-full object-cover rounded-2xl " src="/img/lidar.png" alt="Contact" />
             </div>
-            <div class="p-8  md:w-3/5 w-full h-full flex flex-col justify-center">
+            <div className="p-8  md:w-3/5 w-full h-full flex flex-col justify-center">
               <h1 className="text-4xl font-bold">Light Detection & Ranging</h1>
               <br />
               <p className="mt-4 leading-7 text-gray-500">

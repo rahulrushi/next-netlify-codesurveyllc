@@ -1,6 +1,6 @@
 import { HiOutlineViewGrid } from 'react-icons/hi';
 import Link from 'next/link';
-import { useWidth } from '../hooks/width';
+import { useWidth } from '../hooks/useWidth';
 
 const Header = () => {
   const { width } = useWidth();

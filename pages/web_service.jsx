@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import Head from 'next/head';
 import WebServices from '../components/WebServices';
-import { useWidth } from '../hooks/width';
+import { useWidth } from '../hooks/useWidth';
 
 const web_service = () => {
   const { height, width } = useWidth();

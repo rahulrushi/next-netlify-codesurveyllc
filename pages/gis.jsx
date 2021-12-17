@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import Head from 'next/head';
 import Gis from '../components/Gis';
-import { useWidth } from '../hooks/width';
+import { useWidth } from '../hooks/useWidth';
 
 const gis = () => {
   const { height, width } = useWidth();

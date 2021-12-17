@@ -1,4 +1,4 @@
-import { useWidth } from '../hooks/width';
+import { useWidth } from '../hooks/useWidth';
 const Gis = () => {
   const { height, width } = useWidth();
   const breakpoint = 768;

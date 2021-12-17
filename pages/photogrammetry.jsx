@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import Head from 'next/head';
 import Photogrammetry from '../components/Photogrammetry';
-import { useWidth } from '../hooks/width';
+import { useWidth } from '../hooks/useWidth';
 
 const photogrammetry = () => {
   const { height, width } = useWidth();

@@ -1,4 +1,4 @@
-import { useWidth } from '../hooks/width';
+import { useWidth } from '../hooks/useWidth';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 

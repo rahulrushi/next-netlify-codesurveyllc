@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import Head from 'next/head';
 import Main from '../components/Main';
-import { useWidth } from '../hooks/width';
+import { useWidth } from '../hooks/useWidth';
 
 const Home = () => {
   const { width } = useWidth();
