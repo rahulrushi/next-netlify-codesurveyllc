@@ -127,7 +127,7 @@ const Gis = () => {
               <div
                 className="max-w-lg mx-auto h-full rounded-2xl overflow-y-scroll scrollbar-w-1.5 scrollbar-track-gray-100 scrollbar-thumb-rounded scrollbar-thumb-gray-300 bg-cover shadow-lg"
                 style={{
-                  backgroundImage: `url('/img/land2.jfif')`,
+                  backgroundImage: `url('/img/land.png')`,
 
                   width: '100%',
                   height: '500px',

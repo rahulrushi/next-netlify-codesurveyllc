@@ -29,7 +29,7 @@ const WebServices = () => {
               <div
                 className="rounded-2xl overflow-y-scroll scrollbar-w-1.5 scrollbar-track-gray-100 scrollbar-thumb-rounded scrollbar-thumb-gray-300 bg-cover shadow-lg"
                 style={{
-                  backgroundImage: `url('/img/web.jfif')`,
+                  backgroundImage: `url('/img/web.jpg')`,
 
                   width: '100%',
                   height: '500px',
@@ -65,7 +65,6 @@ const WebServices = () => {
         </Media>
 
         <Media greaterThan="sm">
-          {' '}
           <div className="w-screen  mt-40 mb-44 h-full  mx-auto   overflow-hidden flex justify-center items-center ">
             <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
               <div className="  md:w-2/5 rounded-2xl p-6 flex justify-center items-center">
