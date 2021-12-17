@@ -146,8 +146,9 @@ const Main = () => {
                       <h1 className="text-3xl font-semibold">Step Two</h1>
                       <Image width="150%" height="150%" src="/img/select.svg" alt="" className="w-40 " />
                       <p className="text-gray-900 font-medium text-xl w-80">
-                        Project discussions and confirmation by mutually agreeing on highlevel requirements and
-                        tentative delivery timeline with highest quality.
+                        Work with the client and review the detailed project requirements. Multiple rounds of
+                        communication may be needed during this phase w.th respective to the project inputs or for any
+                        additional inputs/requirements/clarifications.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -291,8 +292,9 @@ const Main = () => {
                       <h1 className="text-3xl font-semibold">Step Two</h1>
                       <Image width="150%" height="150%" src="/img/select.svg" alt="" className="w-40 " />
                       <p className="text-gray-900 font-medium text-xl w-80">
-                        Project discussions and confirmation by mutually agreeing on highlevel requirements and
-                        tentative delivery timeline with highest quality.
+                        Work with the client and review the detailed project requirements. Multiple rounds of
+                        communication may be needed during this phase w.th respective to the project inputs or for any
+                        additional inputs/requirements/clarifications.
                       </p>
                     </div>
                   </SwiperSlide>
