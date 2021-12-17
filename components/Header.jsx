@@ -20,7 +20,7 @@ const Header = () => {
         <Media at="sm">
           <div className=" w-full flex justify-between items-center py-4 px-8 bg-white  fixed z-50 bottom-0  ">
             <Link href="/" passHref>
-              <Image width="100" height="40" src="/img/code_survey_llc.png" className=" h-12 " />
+              <Image width="100" height="40" src="/img/code_survey_llc.png" className=" h-12 " alt="logo" />
             </Link>
 
             <div className="dropdown dropdown-top dropdown-end bg-white rounded-t-xl">
@@ -79,7 +79,7 @@ const Header = () => {
         <Media greaterThan="sm">
           <div className="w-full flex justify-between items-center py-4 px-10 bg-white fixed z-50 top-0  ">
             <Link href="/" passHref>
-              <Image width="150" height="50" src="/img/code_survey_llc.png" className=" h-12 " />
+              <Image width="150" height="50" src="/img/code_survey_llc.png" className=" h-12 " alt="logo" />
             </Link>
             <div>
               <ul className="flex gap-6 w-full h-auto text-center text-lg font-medium ">

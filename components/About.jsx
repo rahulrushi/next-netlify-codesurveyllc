@@ -24,11 +24,11 @@ const About = () => {
               With experienced team of GIS, CAD &amp; web experts, Code Survey has developed a successful track record
               with industry proven and mature focusing on successful project delivery all across the globe. Code Survey
               always employs the best draftsmen, GIS and CAD engineers, Mapping Experts, LiDAR technicians, 3D experts,
-              Web Developers. <br /> <br /> Our cost effective quality services it's going to be a win-win situation.
-              Utilizing latest applications and tools, we provide quality Mapping, Data Management, Image Processing,
-              CAD Engineering, BIM, LiDAR & 3D Mapping services. We are the premier service provider in the areas of
-              GIS, CAD, LiDAR, Photogrammetry & Web services and provide wide range of geospatial services across GIS,
-              floor plans, remote sensing, Photogrammetry, LiDAR and CAD engineering, CAD drafting.
+              Web Developers. <br /> <br /> Our cost effective quality services it &apos;s going to be a win-win
+              situation. Utilizing latest applications and tools, we provide quality Mapping, Data Management, Image
+              Processing, CAD Engineering, BIM, LiDAR &amp; 3D Mapping services. We are the premier service provider in
+              the areas of GIS, CAD, LiDAR, Photogrammetry &amp; Web services and provide wide range of geospatial
+              services across GIS, floor plans, remote sensing, Photogrammetry, LiDAR and CAD engineering, CAD drafting.
             </p>
           </div>
         </div>
