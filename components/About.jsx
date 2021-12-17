@@ -6,7 +6,7 @@ const About = () => {
         <div className="w-full bg-white flex h-14 rounded-b-xl justify-between px-6 items-center fixed z-50 top-0">
           <h1 className="text-xl">About Us</h1>
           <span className="w-10 h-10">
-            <Image width="100" height="100" src="/icons/contact.png" />
+            <Image width="100" height="100" src="/icons/contact.png" alt="abouticon" />
           </span>
         </div>
       </div>
@@ -21,8 +21,8 @@ const About = () => {
             <br />
             <p className="text-xl font-semibold first-letter:text-4xl first-letter:font-bold  text-justify indent-14 ">
               Code Survey is India’s leading IT based company providing Services to Geospatial and Engineering sector.
-              With experienced team of GIS, CAD & web experts, Code Survey has developed a successful track record with
-              industry proven and mature focusing on successful project delivery all across the globe. Code Survey
+              With experienced team of GIS, CAD &amp; web experts, Code Survey has developed a successful track record
+              with industry proven and mature focusing on successful project delivery all across the globe. Code Survey
               always employs the best draftsmen, GIS and CAD engineers, Mapping Experts, LiDAR technicians, 3D experts,
               Web Developers. <br /> <br /> Our cost effective quality services it's going to be a win-win situation.
               Utilizing latest applications and tools, we provide quality Mapping, Data Management, Image Processing,

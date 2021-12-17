@@ -17,7 +17,7 @@ const WebServices = () => {
         <div className="w-full bg-white flex h-14 rounded-b-xl justify-between px-6 items-center fixed z-50 top-0">
           <h1 className="text-xl">WEB</h1>
           <span className="w-10 h-10">
-            <Image width="100" height="100" src="/icons/web.png" />
+            <Image width="100" height="100" src="/icons/web.png" alt="webicon" />
           </span>
         </div>
       </div>
@@ -66,12 +66,18 @@ const WebServices = () => {
 
         <Media greaterThan="sm">
           {' '}
-          <div class="w-screen  mt-40 mb-44 h-full  mx-auto   overflow-hidden flex justify-center items-center ">
-            <div class="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
-              <div class="  md:w-2/5 w-full">
-                <img class="h-full w-full object-cover rounded-2xl " src="/img/web.jfif" alt="Contact" />
+          <div className="w-screen  mt-40 mb-44 h-full  mx-auto   overflow-hidden flex justify-center items-center ">
+            <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
+              <div className="  md:w-2/5 w-full">
+                <Image
+                  width="100"
+                  height="100"
+                  className="h-full w-full object-cover rounded-2xl "
+                  src="/img/web.jfif"
+                  alt="Contact"
+                />
               </div>
-              <div class="p-8  md:w-3/5 w-full h-full flex flex-col justify-center">
+              <div className="p-8  md:w-3/5 w-full h-full flex flex-col justify-center">
                 <h1 className="text-4xl font-bold"> WEB Services</h1>
                 <br />
                 <p className="first-letter:text-4xl first-letter:font-bold  text-justify indent-14 mt-4 leading-7 text-gray-500">

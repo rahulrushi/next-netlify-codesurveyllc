@@ -17,7 +17,7 @@ const Cad = () => {
         <div className="w-full bg-white flex h-14 rounded-b-xl justify-between px-6 items-center fixed z-50 top-0">
           <h1 className="text-xl">CAD</h1>
           <span className="w-10 h-10">
-            <Image width="100" height="100" src="/icons/cad.png" />
+            <Image width="100" height="100" src="/icons/cad.png" alt="cadicon" />
           </span>
         </div>
       </div>
@@ -46,7 +46,7 @@ const Cad = () => {
 
                     <p className="first-letter:text-4xl first-letter:font-bold  text-justify indent-14 mt-4 leading-7 text-gray-500">
                       Code Survey LLC team specializes in connecting clients and firms with top-quality CAD drafting and
-                      design services. Whatever the nature or scope of your project, we'll connect you with expert
+                      design services. Whatever the nature or scope of your project, we&apos;ll connect you with expert
                       drafting talent that will work with you to meet your project goals and timeline. With our global
                       network of CAD drafters, together with efficient business practices and lower overhead costs, Code
                       Survey LLC team is able to offer top-quality drafting services at a much more affordable price
@@ -68,21 +68,27 @@ const Cad = () => {
         </Media>
 
         <Media greaterThan="sm">
-          <div class="w-screen  mt-40 mb-44 h-full  mx-auto   overflow-hidden flex justify-center items-center ">
-            <div class="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
-              <div class="  md:w-2/5 w-full">
-                <img class="h-full w-full object-cover rounded-2xl " src="/img/cad.png" alt="Contact" />
+          <div className="w-screen  mt-40 mb-44 h-full  mx-auto   overflow-hidden flex justify-center items-center ">
+            <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
+              <div className="  md:w-2/5 w-full">
+                <Image
+                  width="100"
+                  height="100"
+                  className="h-full w-full object-cover rounded-2xl "
+                  src="/img/cad.png"
+                  alt="Contact"
+                />
               </div>
-              <div class="p-8  md:w-3/5 w-full h-full flex flex-col justify-center">
+              <div className="p-8  md:w-3/5 w-full h-full flex flex-col justify-center">
                 <h1 className="text-4xl font-bold"> Computer-aided design</h1>
                 <br />
                 <p className="first-letter:text-4xl first-letter:font-bold  text-justify indent-14  mt-4 leading-7 text-gray-500">
                   Code Survey LLC team specializes in connecting clients and firms with top-quality CAD drafting and
-                  design services. Whatever the nature or scope of your project, we'll connect you with expert drafting
-                  talent that will work with you to meet your project goals and timeline. With our global network of CAD
-                  drafters, together with efficient business practices and lower overhead costs, Code Survey LLC team is
-                  able to offer top-quality drafting services at a much more affordable price point than conventional
-                  drafting and design firms.
+                  design services. Whatever the nature or scope of your project, we&apos;ll connect you with expert
+                  drafting talent that will work with you to meet your project goals and timeline. With our global
+                  network of CAD drafters, together with efficient business practices and lower overhead costs, Code
+                  Survey LLC team is able to offer top-quality drafting services at a much more affordable price point
+                  than conventional drafting and design firms.
                 </p>
                 <br />
                 <h1 className="text-xl font-semibold text-gray-600">Following services are offered:</h1>

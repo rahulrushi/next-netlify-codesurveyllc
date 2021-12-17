@@ -17,7 +17,7 @@ const Gis = () => {
         <div className="w-full bg-white flex h-14 rounded-b-xl justify-between px-6 items-center fixed z-50 top-0">
           <h1 className="text-xl">GIS</h1>
           <span className="w-10 h-10">
-            <Image width="100" height="100" src="/icons/gis.png" />
+            <Image width="100" height="100" src="/icons/gis.png" alt="gisicon" />
           </span>
         </div>
       </div>
@@ -171,7 +171,13 @@ const Gis = () => {
             <div className="w-screen   h-full  mx-auto   overflow-hidden flex justify-center items-center ">
               <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
                 <div className="  md:w-2/5 w-full">
-                  <img className="h-full w-full object-cover rounded-2xl " src="/img/img3.jpg" alt="Contact" />
+                  <Image
+                    width="100"
+                    height="100"
+                    className="h-full w-full object-cover rounded-2xl "
+                    src="/img/img3.jpg"
+                    alt="Contact"
+                  />
                 </div>
                 <div className="p-8  md:w-3/5 w-full h-full flex flex-col justify-center">
                   <h1 className="text-4xl font-bold">Image Processing</h1>
@@ -192,7 +198,13 @@ const Gis = () => {
             <div className="w-screen  mt-10  h-full  mx-auto   overflow-hidden flex justify-center items-center ">
               <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
                 <div className="  md:w-2/5 w-full">
-                  <img className="h-full w-full object-cover rounded-2xl " src="/img/img2.jpg" alt="Contact" />
+                  <Image
+                    width="100"
+                    height="100"
+                    className="h-full w-full object-cover rounded-2xl "
+                    src="/img/img2.jpg"
+                    alt="Contact"
+                  />
                 </div>
                 <div className="p-8  md:w-3/5 w-full h-full flex flex-col justify-center">
                   <h1 className="text-4xl font-bold">Parcel Mapping</h1>
@@ -220,7 +232,13 @@ const Gis = () => {
             <div className="w-screen  mt-10  h-full  mx-auto   overflow-hidden flex justify-center items-center ">
               <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
                 <div className="  md:w-2/5 w-full">
-                  <img className="h-full w-full object-cover rounded-2xl " src="/img/img1.jpg" alt="Contact" />
+                  <Image
+                    width="100"
+                    height="100"
+                    className="h-full w-full object-cover rounded-2xl "
+                    src="/img/img1.jpg"
+                    alt="Contact"
+                  />
                 </div>
                 <div className="p-8  md:w-3/5 w-full h-full flex flex-col justify-center">
                   <h1 className="text-4xl font-bold">Geo Referencing</h1>
@@ -236,7 +254,13 @@ const Gis = () => {
             <div className="w-screen  mt-10  h-full  mx-auto   overflow-hidden flex justify-center items-center ">
               <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 h-[700px] bg-white rounded-xl shadow-md">
                 <div className="  md:w-2/5 w-full">
-                  <img className="h-full w-full object-cover rounded-2xl " src="/img/land2.jfif" alt="Contact" />
+                  <Image
+                    width="100"
+                    height="100"
+                    className="h-full w-full object-cover rounded-2xl "
+                    src="/img/land2.jfif"
+                    alt="Contact"
+                  />
                 </div>
                 <div className="p-8  md:w-3/5 w-full h-full flex flex-col justify-center">
                   <h1 className="text-4xl font-bold">Land Use Mapping</h1>
