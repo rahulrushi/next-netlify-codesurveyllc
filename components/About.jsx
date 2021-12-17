@@ -10,15 +10,15 @@ const About = () => {
         </div>
       </div>
 
-      <div className="w-screen  mt-24 mx-auto   overflow-hidden flex justify-center items-center ">
-        <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 bg-white rounded-xl shadow-md">
-          <div className=" mt-10 md:w-1/3 w-full">
-            <img className="h-full w-full object-cover " src="/img/about.svg" alt="About" />
+      <div class="w-screen  mt-24 mx-auto   overflow-hidden flex justify-center items-center ">
+        <div class="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 bg-white rounded-xl shadow-md">
+          <div class=" mt-10 md:w-1/3 w-full">
+            <img class="h-full w-full object-cover " src="/img/about.svg" alt="About" />
           </div>
-          <div className="p-8  md:w-2/3 w-full">
+          <div class="p-8  md:w-2/3 w-full">
             <h1 className="text-4xl font-bold">About Us</h1>
             <br />
-            <p className="text-xl font-semibold">
+            <p className="text-xl font-semibold first-letter:text-4xl first-letter:font-bold  text-justify indent-14 ">
               Code Survey is India’s leading IT based company providing Services to Geospatial and Engineering sector.
               With experienced team of GIS, CAD & web experts, Code Survey has developed a successful track record with
               industry proven and mature focusing on successful project delivery all across the globe. Code Survey
@@ -32,12 +32,12 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="w-screen  mt-10 mb-44  mx-auto   overflow-hidden flex justify-center items-center ">
-        <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 bg-white rounded-xl shadow-md">
-          <div className=" mt-10 md:w-1/3 w-full">
-            <img className="h-full w-full object-cover " src="/img/Contact.png" alt="Contact" />
+      <div class="w-screen  mt-10 mb-44  mx-auto   overflow-hidden flex justify-center items-center ">
+        <div class="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 bg-white rounded-xl shadow-md">
+          <div class=" mt-10 md:w-1/3 w-full">
+            <img class="h-full w-full object-cover " src="/img/Contact.png" alt="Contact" />
           </div>
-          <div className="p-8  md:w-2/3 w-full h-96 mt-10 flex flex-col justify-center">
+          <div class="p-8  md:w-2/3 w-full h-96 mt-10 flex flex-col justify-center">
             <h1 className="text-4xl font-bold">Contact Us</h1>
             <br />
             <p className="text-xl font-semibold">
