@@ -257,7 +257,7 @@ const Gis = () => {
                     width="500"
                     height="700"
                     className="h-full w-full object-cover rounded-2xl "
-                    src="/img/land2.jfif"
+                    src="/img/land.png"
                     alt="Contact"
                   />
                 </div>

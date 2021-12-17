@@ -73,7 +73,7 @@ const WebServices = () => {
                   width="500"
                   height="700"
                   className="h-full w-full object-cover rounded-2xl "
-                  src="/img/web.jfif"
+                  src="/img/web.jpg"
                   alt="Contact"
                 />
               </div>
