@@ -1,3 +1,4 @@
+import Image from 'next/image';
 const About = () => {
   return (
     <div className="container">
@@ -5,7 +6,7 @@ const About = () => {
         <div className="w-full bg-white flex h-14 rounded-b-xl justify-between px-6 items-center fixed z-50 top-0">
           <h1 className="text-xl">About Us</h1>
           <span className="w-10 h-10">
-            <img src="https://img.icons8.com/fluency/48/000000/add-contact-to-company.png" />
+            <Image width="100" height="100" src="/icons/contact.png" />
           </span>
         </div>
       </div>
@@ -13,7 +14,7 @@ const About = () => {
       <div className="w-screen  mt-24 mx-auto   overflow-hidden flex justify-center items-center ">
         <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 bg-white rounded-xl shadow-md">
           <div className=" mt-10 md:w-1/3 w-full">
-            <img className="h-full w-full object-cover " src="/img/about.svg" alt="About" />
+            <Image width="100" height="100" className="h-full w-full object-cover " src="/img/about.svg" alt="About" />
           </div>
           <div className="p-8  md:w-2/3 w-full">
             <h1 className="text-4xl font-bold">About Us</h1>
@@ -35,7 +36,13 @@ const About = () => {
       <div className="w-screen  mt-10 mb-44  mx-auto   overflow-hidden flex justify-center items-center ">
         <div className="md:flex 2xl:mx-80 xl:mx-40 lg:mx-20 md:mx-0 bg-white rounded-xl shadow-md">
           <div className=" mt-10 md:w-1/3 w-full">
-            <img className="h-full w-full object-cover " src="/img/Contact.png" alt="Contact" />
+            <Image
+              width="100"
+              height="100"
+              className="h-full w-full object-cover "
+              src="/img/Contact.png"
+              alt="Contact"
+            />
           </div>
           <div className="p-8  md:w-2/3 w-full h-96 mt-10 flex flex-col justify-center">
             <h1 className="text-4xl font-bold">Contact Us</h1>

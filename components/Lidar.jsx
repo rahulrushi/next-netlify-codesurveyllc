@@ -1,6 +1,6 @@
 // media query
 import { createMedia } from '@artsy/fresnel';
-
+import Image from 'next/image';
 const { MediaContextProvider, Media } = createMedia({
   // breakpoints values can be either strings or integers
   breakpoints: {
@@ -17,7 +17,7 @@ const Lidar = () => {
         <div className="w-full bg-white flex h-14 rounded-b-xl justify-between px-6 items-center fixed z-50 top-0">
           <h1 className="text-xl">LiDAR </h1>
           <span className="w-10 h-10">
-            <img src="https://img.icons8.com/color/48/000000/light.png" />
+            <Image width="100" height="100" src="/icons/light.png" />
           </span>
         </div>
       </div>
