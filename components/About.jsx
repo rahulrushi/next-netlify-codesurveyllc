@@ -50,7 +50,13 @@ const About = () => {
             <p className="text-xl font-semibold">
               Code Survey LLC <br />
               MIG : 90 <br /> KPHB Colony <br /> Hyderabad <br /> Pin Code : 500072 <br /> India Contact :
-              +91-9618069572 <br /> Email : kumar@codesurveyllc.com
+              +91-9618069572 <br />
+              <span>
+                Email :
+                <a href="mailto:kumar@codesurveyllc.com" className="text-blue-500 ml-1 hover:underline">
+                  kumar@codesurveyllc.com
+                </a>
+              </span>
             </p>
           </div>
         </div>
